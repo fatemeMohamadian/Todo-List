@@ -1,5 +1,7 @@
 # Todo-List
 **Used By Js**
+**Used By Local Storage Method**
+**This Project Can Save Your Tasks or Search of Tasks and other Items...**
 
 👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Todo-List/)
                                                            
