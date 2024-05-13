@@ -1,6 +1,6 @@
 # Todo-List
-**Used By Local Storage Method**</br>
-**This Project Can Save Your Tasks or Search of Tasks and other Items...**</br>
+**Used By Local Storage Method**</br></br>
+**This Project Can Save Your Tasks or Search of Tasks and other Items...**
 
 👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Todo-List/)
                                                            
