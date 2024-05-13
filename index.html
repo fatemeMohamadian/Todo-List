@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-Todo-List</title>
+    <link rel="stylesheet" href="assets/font/fontello-e82d5dc1/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-[#d7e5f8] h-full relative">
+    <main class="w-full 2xl:container mx-auto  ">
+        <div class="w-full row flex justify-center items-center">
+            <h1
+                class="w-full py-[30px] flex text-[#4107bc] font-bold justify-center items-center capitalize font-boldfont text-5xl">
+                <i class=" icon-ok-squared"></i> my todo-list
+            </h1>
+        </div>
+        <section class="w-full mt-[15px] flex flex-wrap justify-center items-center">
+            <div
+                class="lg:w-[60%] w-full border flex justify-between items-center *:my-[15px] lg:*:mx-[15px] bg-[#e4f3ff] rounded-lg">
+                <label for="maintext" class="capitalize font-boldfont font-semibold text-lg"><i
+                        class="icon-plus text-[#4f4f50]"></i>add a task</label><input type="text" id="maintext"
+                    placeholder="Type Your Work...." class="w-[55%] h-[70px] outline-none bg-[#e4f3ff] ">
+                <span class=" flex justify-end" id="datecreat" onclick="date(this)"><i
+                        class="icon-calendar text-[#2d2de4] text-[30px] cursor-pointer"></i></span>
+                <button id="btnadd"
+                    class="flex justify-end uppercase font-boldfont bg-[#2d2de4] px-[20px] py-[5px] text-white rounded-md">add</button>
+            </div>
+            <div
+                class="lg:w-[30%] w-full mt-[20px] lg:mt-0 flex justify-evenly *:font-light *:rounded-lg *:font-semibold items-center *:text-white   *:mx-[10px]">
+                <button class="px-[10px] py-[10px] transition-all duration-[.4s] bg-[#2d2de4] hover:bg-[#ff6200e6] "><i
+                        class="icon-hourglass-2 "></i></button>
+                <input type="text" id="search"
+                    class="text-sm px-[5px] py-[12px] outline-none outline-offset-2 flex bg-[#08acf8ac] cursor-pointer placeholder:text-white placeholder:italic placeholder:text-sm placeholder:opacity-80"
+                    placeholder="Search Items"></input>
+                <i
+                    class="icon-search text-lg px-[10px] py-[10px] cursor-pointer flex bg-[#08acf8ac] hover:bg-sky-800 transition-all duration-[.6s]"></i>
+            </div>
+        </section>
+        <section class="w-full flex flex-wrap justify-center items-center mt-[30px]">
+            <h2 id="h2tag" class="w-full flex justify-center items-center capitalize font-boldfont text-xl font-bold">no
+                tasks defined!</h2>
+            <div id="boxmain"
+                class="w-full h-full lg:h-[150%] justify-center items-center flex-wrap absolute z-40 top-0 left-0 bg-sky-500 opacity-50 hidden ">
+            </div>
+            <ul id="tasks"
+                class="lg:w-[50%] *:font-boldfont w-full relative *:capitalize  *:text-xl row list-none mt-[10px] ">
+            </ul>
+            <section class="w-full flex flex-wrap justify-center items-center mt-[30px]">
+                <h3 id="h3tag"
+                    class="w-full justify-center items-center capitalize font-boldfont text-xl font-bold hidden">
+                    completed Task!!</h3>
+                <ul id="listcheck"
+                    class=" lg:w-[50%] w-full *:capitalize *:font-boldfont *:text-xl row list-none hidden"></ul>
+            </section>
+        </section>
+        <footer class="w-full flex relative justify-end items-center mt-[10px]">
+            <div class="group w-[20%] z-50 flex cursor-pointer justify-end fixed right-0 bottom-0">
+                <img class="lg:w-[180px] lg:h-[180px] w-[220px] h-[180px] rounded-[50%]" src="assets/img/11.jpg" alt="">
+                <ul
+                    class="group-hover:visible group-hover:opacity-[1] absolute top-0 lg:right-[60%] right-[110%] list-none *:text-orange-600 rotate-[18deg] translate-y-[-13px] hover:*:text-sky-600 transition-all duration-[.4s] invisible opacity-0">
+                    <li class="mb-[15px] translate-x-[10px]"><a
+                            href="https://www.instagram.com/fateme_mohamadiian.fed?igsh=YzVkODRmOTdmMw=="><i
+                                class="icon-instagram text-[30px]"></i></a></li>
+                    <li class="mb-[15px]"><a href="http://www.linkedin.com/in/fateme-mohamadian-dev0824"><i
+                                class="icon-linkedin-2 text-[30px]"></i></a></li>
+                    <li class="mb-[15px] translate-x-[20px]"><a href="https://github.com/fatemeMohamadian"><i
+                                class=" icon-github-squared text-[30px]"></i></a></li>
+                </ul>
+            </div>
+        </footer>
+    </main>
+    <script src="assets/js/master.js"></script>
+</body>
+
+</html>

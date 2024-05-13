@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+@font-face {
+    font-family: 'boldfont';
+    src: url('../font/Merriweather-Bold.ttf');
+    font-family: 'lightfont';
+    src: url('../font/Merriweather-Light.ttf');
+}
+/* .box{
+    background-color: #ff6200e6;
+} */
+/* .style{
+    display: flex;
+    justify-content: space-between;
+} */
